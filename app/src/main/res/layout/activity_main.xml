@@ -44,11 +44,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="연결"
+
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        <Button
+      <!--  <Button
             android:id="@+id/btnSend"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -56,7 +57,7 @@
             android:text="보내기"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnConnect" />
+            app:layout_constraintTop_toBottomOf="@+id/btnConnect" />-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -82,6 +83,19 @@
             android:id="@+id/textT"
              />
 
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/str_start" />
 
+        <TextView
+            android:id="@+id/txt_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_start"
+            android:layout_centerHorizontal="true"
+            android:singleLine="false" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
